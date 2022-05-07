@@ -1,5 +1,5 @@
 class Stock < ApplicationRecord
-  PUBLISHABLE_TOKEN = Rails.application.credentials.iex_client[:publishable_key]
+  PUBLISHABLE_TOKEN = Rails.application.credentials.iex_client[:sandbox_publishable_key]
 
   def self.new_lookup(ticker_symbol)
     client = IEX::Api::Client.new(
