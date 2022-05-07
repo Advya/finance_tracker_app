@@ -45,6 +45,8 @@ gem 'bootstrap', '~> 5.1.3'
 gem 'jquery-rails'
 gem 'devise-bootstrap-views', '~> 1.0'
 
+gem "responders"
+
 # API iexcloud.io
 gem 'iex-ruby-client'
 
